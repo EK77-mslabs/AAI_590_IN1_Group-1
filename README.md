@@ -70,16 +70,13 @@ The project highlights how machine learning predictions can be combined with int
 ## Installation & Usage
 
 1. Clone the repository: 
-
-git clone https://github.com/EK77-mslabs/AAI_590_IN1_Group-1.git
+`git clone https://github.com/EK77-mslabs/AAI_590_IN1_Group-1.git`
 
 2. Navigate to the project folder:
-
-cd AAI_590_IN1_Group-1
+`cd AAI_590_IN1_Group-1`
 
 3. Open the notebook:
-
-Capstone_Project_Code_Final.ipynb
+`Capstone_Project_Code_Final.ipynb`
 
 
 4. Run all cells (note: LLM section requires API key)
