@@ -1,0 +1,147 @@
+aiohappyeyeballs==2.6.1; python_full_version >= "3.10"
+aiohttp==3.13.5; python_full_version >= "3.10"
+aiosignal==1.4.0; python_full_version >= "3.10"
+alembic==1.16.5; python_full_version < "3.10"
+alembic==1.18.4; python_full_version >= "3.10"
+annotated-doc==0.0.4
+annotated-types==0.7.0
+anyio==4.12.1; python_full_version < "3.10"
+anyio==4.13.0; python_full_version >= "3.10"
+async-timeout==5.0.1; python_full_version == "3.10.*"
+attrs==26.1.0; python_full_version >= "3.10"
+blinker==1.9.0
+cachetools==6.2.6; python_full_version < "3.10"
+cachetools==7.0.5; python_full_version >= "3.10"
+certifi==2022.12.7
+cffi==2.0.0; platform_python_implementation != "PyPy"
+charset-normalizer==3.4.7
+click==8.1.8; python_full_version < "3.10"
+click==8.3.2; python_full_version >= "3.10"
+cloudpickle==3.1.2
+colorama==0.4.6; sys_platform == "win32"
+coloredlogs==15.0.1; python_full_version < "3.10"
+contourpy==1.3.0; python_full_version < "3.10"
+contourpy==1.3.2; python_full_version == "3.10.*"
+contourpy==1.3.3; python_full_version >= "3.11"
+cryptography==46.0.7
+cycler==0.12.1
+databricks-sdk==0.102.0
+docker==7.1.0
+exceptiongroup==1.3.1; python_full_version < "3.11"
+fastapi==0.128.8; python_full_version < "3.10"
+fastapi==0.135.3; python_full_version >= "3.10"
+flask-cors==6.0.2; python_full_version >= "3.10"
+flask==3.1.3
+flatbuffers==25.12.19
+fonttools==4.60.2; python_full_version < "3.10"
+fonttools==4.62.1; python_full_version >= "3.10"
+frozenlist==1.8.0; python_full_version >= "3.10"
+gitdb==4.0.12
+gitpython==3.1.46
+google-auth==2.49.2
+graphene==3.4.3
+graphql-core==3.2.8
+graphql-relay==3.2.0
+greenlet==3.2.5; (python_full_version < "3.10" and platform_machine == "AMD64") or (python_full_version < "3.10" and platform_machine == "WIN32") or (python_full_version < "3.10" and platform_machine == "aarch64") or (python_full_version < "3.10" and platform_machine == "amd64") or (python_full_version < "3.10" and platform_machine == "ppc64le") or (python_full_version < "3.10" and platform_machine == "win32") or (python_full_version < "3.10" and platform_machine == "x86_64")
+greenlet==3.4.0; (python_full_version >= "3.10" and platform_machine == "AMD64") or (python_full_version >= "3.10" and platform_machine == "WIN32") or (python_full_version >= "3.10" and platform_machine == "aarch64") or (python_full_version >= "3.10" and platform_machine == "amd64") or (python_full_version >= "3.10" and platform_machine == "ppc64le") or (python_full_version >= "3.10" and platform_machine == "win32") or (python_full_version >= "3.10" and platform_machine == "x86_64")
+gunicorn==23.0.0; python_full_version < "3.10" and sys_platform != "win32"
+gunicorn==25.3.0; python_full_version >= "3.10" and sys_platform != "win32"
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+huey==2.6.0; python_full_version >= "3.10"
+humanfriendly==10.0; python_full_version < "3.10"
+idna==3.4
+importlib-metadata==7.1.0
+importlib-resources==6.5.2; python_full_version < "3.10"
+iniconfig==2.1.0; python_full_version < "3.10"
+iniconfig==2.3.0; python_full_version >= "3.10"
+itsdangerous==2.2.0
+jinja2==3.1.6
+joblib==1.5.3
+kiwisolver==1.4.7; python_full_version < "3.10"
+kiwisolver==1.5.0; python_full_version >= "3.10"
+mako==1.3.10
+markupsafe==3.0.3
+matplotlib==3.10.8; python_full_version >= "3.10"
+matplotlib==3.9.4; python_full_version < "3.10"
+ml-dtypes==0.5.4
+mlflow-skinny==3.1.4; python_full_version < "3.10"
+mlflow-skinny==3.11.1; python_full_version >= "3.10"
+mlflow-tracing==3.11.1; python_full_version >= "3.10"
+mlflow==3.1.4; python_full_version < "3.10"
+mlflow==3.11.1; python_full_version >= "3.10"
+mpmath==1.3.0
+multidict==6.7.1; python_full_version >= "3.10"
+numpy==2.0.2; python_full_version < "3.10"
+numpy==2.2.6; python_full_version == "3.10.*"
+numpy==2.4.3; python_full_version >= "3.11"
+nvidia-nccl-cu12==2.29.7; (python_full_version >= "3.10" and sys_platform == "linux") or (platform_machine != "aarch64" and sys_platform == "linux")
+onnx==1.19.1; python_full_version < "3.10"
+onnx==1.21.0
+onnx==1.21.0; python_full_version >= "3.10"
+onnxmltools==1.16.0
+onnxruntime==1.20.1; python_full_version < "3.10"
+onnxruntime==1.24.3; python_full_version == "3.10.*"
+onnxruntime==1.24.4
+onnxruntime==1.24.4; python_full_version >= "3.11"
+opentelemetry-api==1.41.0
+opentelemetry-proto==1.41.0; python_full_version >= "3.10"
+opentelemetry-sdk==1.41.0
+opentelemetry-semantic-conventions==0.62b0
+packaging==24.1
+pandas==2.3.3
+pillow==11.3.0
+pluggy==1.6.0
+prettytable==3.17.0; python_full_version >= "3.10"
+propcache==0.4.1; python_full_version >= "3.10"
+protobuf==6.33.6
+pyarrow==20.0.0; python_full_version < "3.10"
+pyarrow==23.0.1; python_full_version >= "3.10"
+pyasn1-modules==0.4.2
+pyasn1==0.6.3
+pycparser==2.23; python_full_version < "3.10" and implementation_name != "PyPy" and platform_python_implementation != "PyPy"
+pycparser==3.0; python_full_version >= "3.10" and implementation_name != "PyPy" and platform_python_implementation != "PyPy"
+pydantic-core==2.41.5
+pydantic==2.12.5
+pygments==2.20.0
+pyparsing==3.3.2
+pyreadline3==3.5.4; python_full_version < "3.10" and sys_platform == "win32"
+pytest==8.4.2; python_full_version < "3.10"
+pytest==9.0.3; python_full_version >= "3.10"
+python-dateutil==2.9.0.post0
+python-dotenv==1.2.2; python_full_version >= "3.10"
+pytz==2026.1.post1
+pywin32==311; sys_platform == "win32"
+pyyaml==6.0.3
+requests==2.32.5
+scikit-learn==1.6.1; python_full_version < "3.10"
+scikit-learn==1.7.2; python_full_version == "3.10.*"
+scikit-learn==1.8.0; python_full_version >= "3.11"
+scipy==1.13.1; python_full_version < "3.10"
+scipy==1.15.3; python_full_version == "3.10.*"
+scipy==1.17.1; python_full_version >= "3.11"
+six==1.17.0
+skl2onnx==1.20.0
+skops==0.13.0; python_full_version >= "3.10"
+smmap==5.0.3
+sqlalchemy==2.0.49
+sqlparse==0.5.5
+starlette==0.49.3; python_full_version < "3.10"
+starlette==1.0.0; python_full_version >= "3.10"
+sympy==1.14.0
+threadpoolctl==3.6.0
+tomli==2.4.1; python_full_version < "3.11"
+typing-extensions==4.15.0
+typing-inspection==0.4.2
+tzdata==2026.1
+urllib3==2.6.3
+uvicorn==0.39.0; python_full_version < "3.10"
+uvicorn==0.44.0; python_full_version >= "3.10"
+waitress==3.0.2; sys_platform == "win32"
+wcwidth==0.6.0; python_full_version >= "3.10"
+werkzeug==3.1.8
+xgboost==2.1.4; python_full_version < "3.10"
+xgboost==3.2.0; python_full_version >= "3.10"
+yarl==1.23.0; python_full_version >= "3.10"
+zipp==3.19.2

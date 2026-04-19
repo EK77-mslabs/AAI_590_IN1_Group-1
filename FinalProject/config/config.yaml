@@ -1,0 +1,83 @@
+data:
+  train_path: "data/train.csv"
+  test_path: "data/test.csv"
+  target_col: "is_claim"
+  categorical_cols:
+    - policy_id
+    - area_cluster
+    - segment
+    - model
+    - fuel_type
+    - max_torque
+    - max_power
+    - engine_type
+    - is_esc
+    - is_adjustable_steering
+    - is_tpms
+    - is_parking_sensors
+    - is_parking_camera
+    - rear_brakes_type
+    - transmission_type
+    - steering_type
+    - is_front_fog_lights
+    - is_rear_window_wiper
+    - is_rear_window_washer
+    - is_rear_window_defogger
+    - is_brake_assist
+    - is_power_door_locks
+    - is_central_locking
+    - is_power_steering
+    - is_driver_seat_height_adjustable
+    - is_day_night_rear_view_mirror
+    - is_ecw
+    - is_speed_alert
+  numeric_cols:
+    - policy_tenure
+    - age_of_car
+    - age_of_policyholder
+    - population_density
+    - make
+    - airbags
+    - displacement
+    - cylinder
+    - gear_box
+    - turning_radius
+    - length
+    - width
+    - height
+    - gross_weight
+    - ncap_rating
+  drop_cols:
+    - policy_id
+    - is_speed_alert
+    - is_central_locking
+    - is_rear_window_washer
+    - max_power
+    - max_torque
+aws:
+  s3_bucket: "ml-models-bucket"
+  endpoint_url: "http://localhost:4566"
+  region: "us-east-1"
+  model_prefix: "models/"
+
+model:
+  random_state: 42
+  enable_hyperparameter_tuning: false
+  tuning:
+    cv: 3
+    n_iter: 5
+
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+
+  xgboost:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+
+  mlp:
+    hidden_layers: [64, 32]
+
+evaluation:
+  baseline_auc: 0.50

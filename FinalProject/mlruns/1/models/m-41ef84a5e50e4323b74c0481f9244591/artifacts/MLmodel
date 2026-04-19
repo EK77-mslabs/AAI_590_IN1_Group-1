@@ -1,0 +1,23 @@
+artifact_path: file:D:/SudhakarF/DocumentsF/SanDiego/Course_11_Capstone_Project/Projects/FinalProject/mlruns/1/models/m-41ef84a5e50e4323b74c0481f9244591/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-41ef84a5e50e4323b74c0481f9244591
+model_size_bytes: 341799
+model_uuid: m-41ef84a5e50e4323b74c0481f9244591
+prompts: null
+run_id: 5750c7b91e354497bd433195fd669421
+utc_time_created: '2026-04-18 17:18:39.789855'

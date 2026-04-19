@@ -1,0 +1,16 @@
+services:
+  inference:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.infer
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../models:/app/models
+
+  train:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.train
+    volumes:
+      - ../models:/app/models

@@ -1,0 +1,24 @@
+artifact_path: file:D:/SudhakarF/DocumentsF/SanDiego/Course_11_Capstone_Project/Projects/FinalProject/mlruns/1/models/m-9392103555bc4b7583b005c3ba0b8b97/artifacts
+flavors:
+  onnx:
+    code: null
+    data: model.onnx
+    onnx_session_options: null
+    onnx_version: 1.21.0
+    providers:
+    - CUDAExecutionProvider
+    - CPUExecutionProvider
+  python_function:
+    data: model.onnx
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.onnx
+    python_version: 3.12.12
+mlflow_version: 3.11.1
+model_id: m-9392103555bc4b7583b005c3ba0b8b97
+model_size_bytes: 18558
+model_uuid: m-9392103555bc4b7583b005c3ba0b8b97
+prompts: null
+run_id: ea02629fdb234a63a43e05daf4bf6817
+utc_time_created: '2026-04-19 05:10:00.377927'
